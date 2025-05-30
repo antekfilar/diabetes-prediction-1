@@ -1,6 +1,6 @@
 # Diabetes Prediction with Logistic Regression
 
-This project predicts the likelihood of diabetes based on medical data using logistic regression.
+This project predicts the likelihood of diabetes based on medical data using logistic regression, comparing it with XGBRegressor and RandomForestRegressor.
 
 ## 📊 Dataset
 [Pima Indians Diabetes Dataset](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database)
@@ -8,12 +8,12 @@ This project predicts the likelihood of diabetes based on medical data using log
 ## 🔍 Features
 - Exploratory Data Analysis (EDA)
 - Feature engineering
-- Logistic regression + hyperparameter tuning
-- Evaluation using accuracy, precision, recall, ROC AUC
+- Logistic regression, XGBRegressor, RandomForestRegressor
+- Evaluation using mean absolute error
 
 ## 🛠️ Tools
 - Python 3.10
-- Pandas, NumPy
+- Pandas
 - Seaborn, Matplotlib
 - Scikit-learn
 
@@ -25,7 +25,7 @@ python src/train_model.py
 ```
 
 ## 📈 Results
-Best ROC AUC: **0.84**
+Best mean absolute error: **0.23**
 
 ## 📁 Structure
 - `notebooks/`: exploratory analysis
